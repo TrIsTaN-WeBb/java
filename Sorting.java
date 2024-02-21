@@ -61,13 +61,12 @@ public class Sorting {
     }
 
     // Function to print out an array.
-    static boolean printArray(int[] arrayToPrint){
+    static void printArray(int[] arrayToPrint){
         
         //using a for loop, print out the values of an array
         for(int i=0; i<arrayToPrint.length; i++){
             System.out.println(arrayToPrint[i]);
         }
 
-        return true; // to satisfy the function requirements (not used)
     }
 }
