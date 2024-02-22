@@ -27,10 +27,13 @@ public class Horse {
     };
 
     public static void main(String[] args){
+
+        //create three horses with names and birth years
         Horse horse1 = new Horse ("Reggie", 1920);
         Horse horse2 = new Horse ("Renaldo", 2031);
         Horse horse3 = new Horse ("Regis", 1753);
 
+        //print out the three horses' names and birth years
         System.out.println(horse1.name + " " + horse1.birthYear);
         System.out.println(horse2.name + " " + horse2.birthYear);
         System.out.println(horse3.name + " " + horse3.birthYear);
