@@ -3,7 +3,7 @@
 //instructor Mr Gross
 
 //MyMonster is the superclass for my project
-public class MyMonster {
+public class MyMonster implements Comparable<MyMonster> { //implements comparable for sort feature
     private String name; //monster's name
     private int damage; //monster's damage
     private int health; //monster's original health
@@ -56,6 +56,11 @@ public class MyMonster {
     //change Monster's current health
     public void setCurrentHealth(int newHealth){
         currentHealth = newHealth;
+    }
+
+    //required method for Comparable interface to sort
+    public int compareTo(MyMonster mm){
+        return this.currentHealth - mm.currentHealth;
     }
 
 }
