@@ -60,7 +60,7 @@ public class MyMonster implements Comparable<MyMonster> { //implements comparabl
 
     //required method for Comparable interface to sort
     public int compareTo(MyMonster mm){
-        return this.currentHealth - mm.currentHealth;
+        return this.currentHealth - mm.currentHealth; //sorts Monsters by who has the most remaining health after battles
     }
 
 }

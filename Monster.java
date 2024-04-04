@@ -1,3 +1,7 @@
+//Tristan Webb tristan.webb@malad.us
+//for CTE software development 1
+//instructor Mr Gross
+
 public class Monster {
     private String name; //monster's name
     private int damage; //monster's damage
